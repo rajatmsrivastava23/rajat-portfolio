@@ -1,0 +1,40 @@
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.experience-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.experience-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    padding: 15px;
+}
+
+.experience-item h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.experience-item h4 {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.experience-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.experience-list {
+    list-style-type: none;
+    padding: 0;
+}

@@ -1,0 +1,8 @@
+/* Placeholder styles for Header component */
+.header {
+  padding: 1rem;
+  background: #4a90e2;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+}
