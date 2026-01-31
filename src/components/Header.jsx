@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     const headerStyle = {
-        background: 'linear-gradient(rgba(0, 40, 80, 0.85), rgba(0, 20, 40, 0.9)), url(/header-bg.jpg)',
+        background: `linear-gradient(rgba(0, 40, 80, 0.85), rgba(0, 20, 40, 0.9)), url(${process.env.PUBLIC_URL}/header-bg.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: '#ffffff',
@@ -35,7 +35,7 @@ const Header = () => {
                 <div style={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '180px' }}>
                     <div style={{ position: 'absolute', left: 0, top: '50%', transform: 'translateY(-50%)' }}>
                         <img 
-                            src="/Rajat_photo.jpeg" 
+                            src={`${process.env.PUBLIC_URL}/Rajat_photo.jpeg`} 
                             alt="Rajat Mohan Srivastava" 
                             style={{ 
                                 width: '150px', 
