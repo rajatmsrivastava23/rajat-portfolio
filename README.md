@@ -51,4 +51,4 @@ This portfolio is designed to highlight my professional journey, showcasing my e
 
 ## Contact
 
-For inquiries or collaborations, feel free to reach out via email at [your-email@example.com] or connect with me on [LinkedIn](https://www.linkedin.com/in/yourprofile).
+For inquiries or collaborations, feel free to reach out via email at [srajatmohan@gmail.com](mailto:srajatmohan@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/rajatmsrivastava).

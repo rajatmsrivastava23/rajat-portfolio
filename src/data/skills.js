@@ -1,42 +1,31 @@
 const skills = [
     {
-        category: "Data Analysis",
+        category: "Data & BI",
         skills: [
-            "Python",
-            "R",
-            "SQL",
-            "Excel",
-            "Tableau"
+            "Power BI (DAX, Power Query)",
+            "SAP BI",
+            "SQL (Advanced)",
+            "Excel (Advanced)"
         ]
     },
     {
-        category: "Machine Learning",
+        category: "Programming & Data",
         skills: [
-            "Scikit-learn",
-            "TensorFlow",
-            "Keras",
-            "Pandas",
-            "NumPy"
+            "Python (Pandas, NumPy, Matplotlib)",
+            "Google BigQuery",
+            "ETL Pipelines"
         ]
     },
     {
-        category: "GenAI Engineering",
+        category: "Generative AI & Agentic AI",
         skills: [
-            "Natural Language Processing",
-            "Generative Models",
-            "Deep Learning",
-            "Data Preprocessing",
-            "Model Deployment"
-        ]
-    },
-    {
-        category: "Web Development",
-        skills: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "React",
-            "Node.js"
+            "Large Language Models (LLMs)",
+            "Prompt Engineering",
+            "RAG (Retrieval-Augmented Generation)",
+            "Embeddings & Semantic Search",
+            "Vector Databases (FAISS / Chroma)",
+            "Fine-tuning Concepts & RLHF",
+            "LangChain / Agent Orchestration (Basics)"
         ]
     }
 ];
