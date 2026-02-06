@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rajat-portfolio/static/css/main.e8f22f1a.chunk.css",
-    "main.js": "/rajat-portfolio/static/js/main.a8ce4c08.chunk.js",
-    "main.js.map": "/rajat-portfolio/static/js/main.a8ce4c08.chunk.js.map",
+    "main.js": "/rajat-portfolio/static/js/main.54e12d56.chunk.js",
+    "main.js.map": "/rajat-portfolio/static/js/main.54e12d56.chunk.js.map",
     "runtime-main.js": "/rajat-portfolio/static/js/runtime-main.e6143d09.js",
     "runtime-main.js.map": "/rajat-portfolio/static/js/runtime-main.e6143d09.js.map",
     "static/js/2.744ee87f.chunk.js": "/rajat-portfolio/static/js/2.744ee87f.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e6143d09.js",
     "static/js/2.744ee87f.chunk.js",
     "static/css/main.e8f22f1a.chunk.css",
-    "static/js/main.a8ce4c08.chunk.js"
+    "static/js/main.54e12d56.chunk.js"
   ]
 }
