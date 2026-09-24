@@ -4,7 +4,7 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <section className="my-8 p-6 rounded-2xl bg-darkBlue/80 shadow-xl border border-neonGreen/30 animate-slide-in-left">
+        <section id="projects" className="my-8 p-6 rounded-2xl bg-darkBlue/80 shadow-xl border border-neonGreen/30 animate-slide-in-left">
             <h2 className="text-2xl md:text-3xl font-bold text-neonGreen mb-4">Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {projectsData.map((project, index) => (
@@ -15,6 +15,19 @@ const Projects = () => {
                             {project.title}
                         </h3>
                         <p className="text-gray-300 mb-3 relative z-10"><span className="font-bold text-neonPurple">Problem:</span> {project.description}</p>
+                        {project.highlights && project.highlights.length > 0 && (
+                            <div className="mb-3 relative z-10">
+                                <p className="font-bold text-neonPurple mb-2">What I Built:</p>
+                                <ul className="space-y-2">
+                                    {project.highlights.map((point, i) => (
+                                        <li key={i} className="flex items-start gap-2 text-gray-300 text-sm leading-relaxed">
+                                            <span className="text-neonGreen mt-0.5">✓</span>
+                                            <span>{point}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
                         <p className="mb-3 relative z-10"><span className="font-bold text-neonGreen">Tech Stack:</span> <span className="text-gray-200">{project.techStack.join(', ')}</span></p>
                         <p className="relative z-10"><span className="font-bold text-neonCyan">Outcome:</span> <span className="text-gray-200">{project.outcome}</span></p>
                     </div>

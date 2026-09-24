@@ -6,20 +6,33 @@ const Certifications = () => {
             <div className="absolute -bottom-32 -right-32 w-64 h-64 bg-neonPurple/10 rounded-full blur-3xl group-hover:bg-neonCyan/15 transition-all duration-500"></div>
             <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-neonPurple via-neonCyan to-neonGreen bg-clip-text text-transparent mb-6 flex items-center gap-3 relative z-10">
                 <span className="text-4xl">🏆</span>
-                Certifications
+                Education &amp; Certifications
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
                 <div className="bg-gradient-to-br from-darkBg/90 to-darkBlue/90 rounded-2xl p-6 shadow-2xl border-2 border-neonCyan/30 hover:border-neonGreen hover:scale-105 hover:shadow-neonCyan/50 transition-all duration-300 group/card relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-24 h-24 bg-neonCyan/10 rounded-full blur-2xl group-hover/card:bg-neonGreen/20 transition-all duration-300"></div>
-                    <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neonCyan to-neonGreen relative z-10">ITIL® 4 Foundation</h3>
+                    <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neonCyan to-neonGreen relative z-10">🎓 B.Tech, Electrical &amp; Electronics Engineering</h3>
+                    <p className="text-sm text-gray-300 mt-2 relative z-10">Ajay Kumar Garg Engineering College, Ghaziabad · June 2019</p>
                 </div>
                 <div className="bg-gradient-to-br from-darkBg/90 to-darkBlue/90 rounded-2xl p-6 shadow-2xl border-2 border-neonCyan/30 hover:border-neonGreen hover:scale-105 hover:shadow-neonCyan/50 transition-all duration-300 group/card relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-24 h-24 bg-neonCyan/10 rounded-full blur-2xl group-hover/card:bg-neonGreen/20 transition-all duration-300"></div>
-                    <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neonCyan to-neonGreen relative z-10">Advanced Excel – Udemy</h3>
+                    <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neonCyan to-neonGreen relative z-10">AI Engineer Agentic Track: The Complete Agent &amp; MCP Course – Udemy</h3>
                 </div>
                 <div className="bg-gradient-to-br from-darkBg/90 to-darkBlue/90 rounded-2xl p-6 shadow-2xl border-2 border-neonCyan/30 hover:border-neonGreen hover:scale-105 hover:shadow-neonCyan/50 transition-all duration-300 group/card relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-24 h-24 bg-neonCyan/10 rounded-full blur-2xl group-hover/card:bg-neonGreen/20 transition-all duration-300"></div>
-                    <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neonCyan to-neonGreen relative z-10">SQL for Data Analysis</h3>
+                    <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neonCyan to-neonGreen relative z-10">Building AI Agents using LangChain – Udemy</h3>
+                </div>
+                <div className="bg-gradient-to-br from-darkBg/90 to-darkBlue/90 rounded-2xl p-6 shadow-2xl border-2 border-neonCyan/30 hover:border-neonGreen hover:scale-105 hover:shadow-neonCyan/50 transition-all duration-300 group/card relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-24 h-24 bg-neonCyan/10 rounded-full blur-2xl group-hover/card:bg-neonGreen/20 transition-all duration-300"></div>
+                    <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neonCyan to-neonGreen relative z-10">ITIL® 4 Foundation – PeopleCert</h3>
+                </div>
+                <div className="bg-gradient-to-br from-darkBg/90 to-darkBlue/90 rounded-2xl p-6 shadow-2xl border-2 border-neonCyan/30 hover:border-neonGreen hover:scale-105 hover:shadow-neonCyan/50 transition-all duration-300 group/card relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-24 h-24 bg-neonCyan/10 rounded-full blur-2xl group-hover/card:bg-neonGreen/20 transition-all duration-300"></div>
+                    <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neonCyan to-neonGreen relative z-10">Advanced Excel Formulas &amp; Functions – Udemy</h3>
+                </div>
+                <div className="bg-gradient-to-br from-darkBg/90 to-darkBlue/90 rounded-2xl p-6 shadow-2xl border-2 border-neonCyan/30 hover:border-neonGreen hover:scale-105 hover:shadow-neonCyan/50 transition-all duration-300 group/card relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-24 h-24 bg-neonCyan/10 rounded-full blur-2xl group-hover/card:bg-neonGreen/20 transition-all duration-300"></div>
+                    <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neonCyan to-neonGreen relative z-10">SQL for Data Analysis: Advanced SQL Querying Techniques – Udemy</h3>
                 </div>
             </div>
         </section>

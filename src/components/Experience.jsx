@@ -10,7 +10,7 @@ const Experience = () => {
                 <span className="text-4xl">💼</span>
                 Experience
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10">
+            <div className={`grid grid-cols-1 ${experienceData.length > 1 ? 'md:grid-cols-2' : ''} gap-6 relative z-10`}>
                 {experienceData.map((job, index) => (
                     <div key={index} className="bg-gradient-to-br from-darkBg/90 to-darkBlue/90 rounded-2xl p-6 shadow-2xl border-2 border-neonPurple/30 hover:scale-105 hover:border-neonGreen hover:shadow-neonPurple/50 transition-all duration-300 group/card relative overflow-hidden">
                         <div className="absolute top-0 right-0 w-32 h-32 bg-neonPurple/10 rounded-full blur-2xl group-hover/card:bg-neonGreen/20 transition-all duration-300"></div>

@@ -51,13 +51,13 @@ const Header = () => {
                     <div style={{ textAlign: 'center', maxWidth: '600px' }}>
                         <h1 style={{ margin: 0, fontSize: '2rem' }}>Rajat Mohan Srivastava</h1>
                         <p style={{ margin: '8px 0 6px', fontSize: '0.9rem', color: '#e5e7eb' }}>
-                            ~5 years of experience in Data Analysis, Business Intelligence & Emerging GenAI
+                            5 years at Ericsson in GenAI, Agentic AI, Machine Learning & Data
                         </p>
                         <h2 style={{ margin: '6px 0 10px', fontSize: '1.25rem' }}>
-                            Data Analyst | BI, Automation & Emerging GenAI Engineer
+                            AI-Enabled Data Analyst | GenAI & Agentic AI Systems
                         </h2>
                         <p style={{ margin: '0 0 12px', fontSize: '0.95rem', color: '#e5e7eb' }}>
-                            Turning Data into Insights and Scaling Intelligence with GenAI
+                            Building multi-agent GenAI systems that turn enterprise data into grounded, automated answers
                         </p>
                         <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
                             <a
@@ -70,7 +70,7 @@ const Header = () => {
                             </a>
                             <span style={{ color: '#cbd5e1' }}>|</span>
                             <a
-                                href="/resume.pdf"
+                                href={`${process.env.PUBLIC_URL}/resume.pdf`}
                                 style={linkStyle}
                                 download
                                 onMouseEnter={(e) => (e.currentTarget.style.color = linkHoverStyle.color)}

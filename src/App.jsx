@@ -11,14 +11,14 @@ import Footer from './components/Footer';
 import './styles/App.css';
 
 const App = () => {
-    const summary = "Data Analyst with 4+ years of experience in Power BI, SQL, Python, and SAP BI. Currently learning Agentic AI, LLMs, RAG, and Vector Databases with a focus on analytics automation and AI-powered insights.";
+    const summary = "Data and applied AI analyst with 5 years at Ericsson, focused on building and shipping GenAI and agentic AI systems on enterprise telecom and operations data.";
     const skills = [
-        "Power BI (DAX, Power Query)",
-        "SQL (Advanced)",
-        "Python (Pandas, NumPy)",
-        "SAP BI",
-        "ETL Pipelines",
-        "LLMs & Prompt Engineering"
+        "Agentic AI & Multi-Agent Systems",
+        "LangChain & RAG Pipelines",
+        "OpenAI GPT, Gemini & Qwen",
+        "Vertex AI, Cloud Run & Docker",
+        "Machine Learning & Computer Vision (OpenCV)",
+        "Python, SQL & Power BI"
     ];
     return (
         <div className="min-h-screen bg-darkBg text-white font-inter">

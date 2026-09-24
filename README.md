@@ -1,5 +1,5 @@
 Portfolio Project Thesis
-Title: Personal Portfolio Website - Data Analyst & Business Intelligence Professional
+Title: Personal Portfolio Website - AI-Enabled Data Analyst | GenAI & Agentic AI Systems
 
 Overview:
 A modern, responsive React-based portfolio website showcasing professional expertise in Data Analysis, Business Intelligence, and Applied AI. The portfolio serves as a comprehensive digital representation of professional skills, experience, and projects with an emphasis on modern web design and user experience.

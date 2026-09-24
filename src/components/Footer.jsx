@@ -23,10 +23,10 @@ const Footer = () => {
     return (
         <footer style={footerStyle}>
             <div style={{ fontWeight: 700, fontSize: '18px', marginBottom: '6px' }}>Rajat Mohan Srivastava</div>
-            <div style={{ color: '#e5e7eb', marginBottom: '10px' }}>Data Analyst | Emerging GenAI Engineer</div>
+            <div style={{ color: '#e5e7eb', marginBottom: '10px' }}>AI-Enabled Data Analyst | GenAI & Agentic AI Systems</div>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
                 <a
-                    href="https://www.linkedin.com/in/rajatmsrivastava/"
+                    href="https://www.linkedin.com/in/srajatmohan/"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={linkStyle}

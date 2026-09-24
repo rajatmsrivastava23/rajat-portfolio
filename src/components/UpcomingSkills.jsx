@@ -2,12 +2,12 @@ import React from 'react';
 
 const UpcomingSkills = () => {
     const items = [
-        "Advanced Python for AI",
         "FastAPI for AI backends",
-        "Advanced LangChain & Agentic Workflows",
-        "OpenAI / LLM APIs",
-        "Deployment (Docker, Cloud basics)",
-        "MLOps & Monitoring (Foundations)"
+        "LangGraph & advanced agentic workflows",
+        "Model Context Protocol (MCP) & tool-calling agents",
+        "LLM evaluation & observability (LangSmith / LangFuse)",
+        "Advanced computer vision (YOLO, vision-language models)",
+        "Advanced MLOps (MLflow, Terraform, CI/CD for LLM apps)"
     ];
 
     return (
