@@ -2,13 +2,14 @@ import React from 'react';
 
 const Header = () => {
     const headerStyle = {
-        background: `linear-gradient(rgba(0, 40, 80, 0.85), rgba(0, 20, 40, 0.9)), url(${process.env.PUBLIC_URL}/header-bg.jpg)`,
+        background: `linear-gradient(rgba(26, 11, 46, 0.88), rgba(10, 0, 20, 0.93)), url(${process.env.PUBLIC_URL}/header-bg.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: '#ffffff',
         textAlign: 'center',
         padding: '24px 16px',
-        boxShadow: '0 10px 25px rgba(0,0,0,0.25)',
+        boxShadow: '0 10px 25px rgba(139, 92, 246, 0.25)',
+        borderBottom: '1px solid rgba(139, 92, 246, 0.4)',
         position: 'relative'
     };
 
@@ -20,13 +21,13 @@ const Header = () => {
     };
 
     const linkStyle = {
-        color: '#3b82f6',
+        color: '#a78bfa',
         textDecoration: 'none',
         fontWeight: 600
     };
 
     const linkHoverStyle = {
-        color: '#60a5fa'
+        color: '#c084fc'
     };
 
     return (
@@ -41,10 +42,10 @@ const Header = () => {
                                 width: '150px', 
                                 height: '150px', 
                                 borderRadius: '50%', 
-                                border: '4px solid #3b82f6',
+                                border: '4px solid #8b5cf6',
                                 objectFit: 'cover',
                                 objectPosition: 'top',
-                                boxShadow: '0 8px 20px rgba(59, 130, 246, 0.3)'
+                                boxShadow: '0 8px 20px rgba(139, 92, 246, 0.45)'
                             }} 
                         />
                     </div>

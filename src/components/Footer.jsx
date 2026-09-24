@@ -2,22 +2,23 @@ import React from 'react';
 
 const Footer = () => {
     const footerStyle = {
-        backgroundColor: '#35424a',
+        backgroundColor: '#1a0b2e',
+        borderTop: '1px solid rgba(139, 92, 246, 0.4)',
         color: '#ffffff',
         textAlign: 'center',
         padding: '24px 16px',
         marginTop: '48px',
-        boxShadow: '0 -10px 25px rgba(0,0,0,0.25)'
+        boxShadow: '0 -10px 25px rgba(139, 92, 246, 0.2)'
     };
 
     const linkStyle = {
-        color: '#3b82f6',
+        color: '#a78bfa',
         textDecoration: 'none',
         fontWeight: 600
     };
 
     const linkHoverStyle = {
-        color: '#60a5fa'
+        color: '#c084fc'
     };
 
     return (
